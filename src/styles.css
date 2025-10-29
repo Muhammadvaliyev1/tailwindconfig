@@ -13,3 +13,10 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #6b7280;
 }
+
+.top-creaters {
+    @apply h-[100px] lg:h-full bg-gray lg:space-y-5 relative flex flex-row lg:flex-col lg:text-center items-center justify-start lg:justify-center gap-x-5 lg:gap-x-0 rounded-2.5xl p-5;
+}
+.top-creatersRes {
+    @apply h-[100px] lg:h-full bg-gray lg:space-y-5 relative hidden md:flex flex-row lg:flex-col lg:text-center items-center justify-start lg:justify-center gap-x-5 lg:gap-x-0 rounded-2.5xl p-5;
+}
